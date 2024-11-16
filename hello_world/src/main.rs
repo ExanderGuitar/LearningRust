@@ -31,5 +31,15 @@ fn main() {
         println!("Hello {}", name)
     }
 
-    waving("Alejandro".to_string())
+    waving("Alejandro".to_string());
+
+    fn construct_waving (name: &mut String) {
+        name.insert_str(0, "Hello ");
+    }
+
+    let mut name = String::from("Alejandro");
+
+    construct_waving(&mut name);
+
+    println!("{}", name);
 }
