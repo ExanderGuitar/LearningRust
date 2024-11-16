@@ -42,4 +42,14 @@ fn main() {
     construct_waving(&mut name);
 
     println!("{}", name);
+
+    let condition = false;
+    let my_number_guay = if condition {4} else {9};
+    println!("Look at this number {}", my_number_guay);
+    
+    let noseque = [5; 10];
+    for n in noseque {
+        println!("{}", n);
+    }
 }
+    
