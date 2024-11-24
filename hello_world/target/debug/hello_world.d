@@ -1,1 +1,1 @@
-E:\Alejandro\Coding\Rust\LearningRust\hello_world\target\debug\hello_world.exe: E:\Alejandro\Coding\Rust\LearningRust\hello_world\src\main.rs
+/Users/alejandro/Coding/Rust/learningrust/hello_world/target/debug/hello_world: /Users/alejandro/Coding/Rust/learningrust/hello_world/src/main.rs
